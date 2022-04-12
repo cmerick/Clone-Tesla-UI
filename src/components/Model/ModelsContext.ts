@@ -3,7 +3,7 @@ import React, { ReactNode } from "react";
 export interface CarModel {
     modelName: string 
     overlayNode: ReactNode
-    sctionRef: React.RefObject<HTMLElement>
+    sectionRef: React.RefObject<HTMLElement>
 }
 
 interface ModelsContext{

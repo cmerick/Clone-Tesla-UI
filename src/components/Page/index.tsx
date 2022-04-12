@@ -1,7 +1,7 @@
 import { Container } from './styles';
 
 import { ModelsWrapper, ModelSection } from '../Model';
-
+import UniqueOverlay from '../UniqueOverlay'
 
 import DefaultOverlayContent from '../DefaultOverlayContent';
 
@@ -33,6 +33,8 @@ const Page: React.FC = () => {
                     ))}
 
                 </div>
+
+                <UniqueOverlay/>
             </ModelsWrapper>
         </Container>
     )
