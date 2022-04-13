@@ -3,13 +3,13 @@ import styled from "styled-components"
 export const Container = styled.div`
 
 .colored:nth-child(1) {
-background: #f1ffe7;
+background: #DCE1DE;
 }
 .colored:nth-child(2) {
 background: #dfffd9;
 }
 .colored:nth-child(3) {
-background: #cdfeca;
+background: #49A078;
 }
 .colored:nth-child(4) {
 background: #bbfebb;
@@ -21,8 +21,16 @@ background: #a9fdac;
 background: #90f29c;
 }
 .colored:nth-child(7) {
-background: #77e68c;
+background: #EFD6AC;
+}
+.colored:nth-child(8) {
+background: #5C80BC;
 }
 
+`;
+
+export const Spacer = styled.div`
+height: 15vh;
+background-color: #77e68c;
 `;
 

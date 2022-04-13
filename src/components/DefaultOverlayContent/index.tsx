@@ -9,6 +9,17 @@ const DeafultOverlayContent: React.FC<Props> = ({
     label,
     description
 }) => {
+    const moreLabel  = (label:string) => {
+        if(label == 'More'){
+            return <button>Shop Now</button>
+        }
+        else{
+           return( <><button>Custom Order</button>
+            <button className='white'>Existing Inventory</button>
+            </>)
+        }
+    }
+
     return(
         <Container>
             <Heading>
@@ -16,8 +27,7 @@ const DeafultOverlayContent: React.FC<Props> = ({
                 <h2>{description}</h2>
             </Heading>
             <Buttons>
-                <button>Custom Order</button>
-                <button className='white'>Existing Inventory</button>
+                {moreLabel(label)}
             </Buttons>
         </Container>
     )

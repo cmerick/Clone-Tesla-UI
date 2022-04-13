@@ -14,7 +14,7 @@ export const Heading = styled.div`
         font-weight: 500;
         font-size: 40px;
         line-height: 48px;
-        color: #393c41;
+        color: #30323D;
     }
 
     > h2 {
@@ -30,19 +30,20 @@ export const Buttons = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    margin-bottom: 130px;
+    
+    margin-top: 16px;
+    margin-bottom: 140px;
 
     > button {
         background: #1a1720;
         color: #fff;
-        opacity: 0.8;
-
+        opacity: 0.9;
+        
         font-size: 12px;
         font-weight: 500;
         letter-spacing: 0.4px;
         text-transform: uppercase;
-
+        
         padding: 13px 40px;
         border-radius: 20px;
         border: none;
@@ -58,6 +59,7 @@ export const Buttons = styled.div`
         }
 
         & + button {
+            
                 margin: 10px 0 0;
             }
 
@@ -65,7 +67,7 @@ export const Buttons = styled.div`
 
     @media (min-width: 600px) {
         flex-direction: row;
-        margin-bottom: 90px;
+        margin-bottom: 120px;
 
         > button + button {
             margin: 0 0 0 10px;
